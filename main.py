@@ -212,7 +212,7 @@ except:
         app.style.theme_use("default")
 
 miniatura_tamanho = tk.IntVar(app, value=160)
-var_diretorio = tk.StringVar(app, value="/home/johnb/Imagens/")
+var_diretorio = tk.StringVar(app, value="/home/.../Imagens/")
 var_busca = tk.StringVar(app)
 var_ext = tk.StringVar(app, value=None)
 imagens_list = []
